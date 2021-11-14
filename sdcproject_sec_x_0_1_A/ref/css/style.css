@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+*
+{
+    text-align: center;
+}
+
+body
+{
+    margin: 0;
+    height: 1200px;
+    border: solid 1px black;
+}
+
+#veryHigh
+{
+    height: 50px;
+    border: solid 1px blue;
+    background-color: black;
+}
+
+#veryHigh img
+{
+    margin-left: 10px;
+    float: left;
+    width: 40px;
+    height: 50px;
+}
+
+#veryHigh p
+{
+    margin: 10px 0px 15px 10px;
+    float: left;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Cinzel";
+    font-size: 24px;
+}
+
+#vhListwest
+{
+    margin: 12px 0px 12px 0px;
+    float: left;
+    color: gray;
+}
+
+#vhListwest li
+{
+    margin-right: 10px;
+    display: inline;
+    font-size: 14px;
+    color:gray;
+}
+
+#vhLiseast
+{
+    margin: 12px 0 12px 15px;
+    float: right;
+}
+
+#vhLiseast li
+{
+    margin-right: 10px;
+    display: inline;
+    font-size: 14px;
+    color:gray;
+}
+
+#mainA
+{
+    border: solid 1px red;
+    height: 700px;
+    background-image: url("https://t1.daumcdn.net/cfile/tistory/998EA74B5B1091D22A");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: url("https://t1.daumcdn.net/cfile/tistory/998EA74B5B1091D22A") no-repeat center/cover;
+}
+
+#mainButtonBar
+{
+    margin: 30px 5% 0 5%; 
+    height: 50px;
+    border: solid 1px royalblue;
+    background-color: royalblue;
+}
